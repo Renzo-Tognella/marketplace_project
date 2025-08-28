@@ -19,7 +19,6 @@ API REST para gerenciamento de carrinho de compras desenvolvida em Ruby on Rails
 - Controle de estoque
 - Gerenciamento de sessão
 - Jobs para carrinhos abandonados
-- 187 testes com 100% de cobertura
 
 ## API Endpoints
 
