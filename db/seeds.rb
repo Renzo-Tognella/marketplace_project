@@ -12,14 +12,26 @@
 Product.create([
   {
     name: 'Samsung Galaxy S24 Ultra',
-    price: 12999.99
+    price: 12999.99,
+    description: 'Smartphone premium com câmera de 200MP e S Pen',
+    stock_quantity: 50,
+    category: 'electronics',
+    status: 'active'
   },
   {
     name: 'iPhone 15 Pro Max',
-    price: 14999.99
+    price: 14999.99,
+    description: 'iPhone mais avançado com chip A17 Pro e câmera de 48MP',
+    stock_quantity: 30,
+    category: 'electronics',
+    status: 'active'
   },
   {
     name: 'Xiamo Mi 27 Pro Plus Master Ultra',
-    price: 999.99
+    price: 999.99,
+    description: 'Smartphone com excelente custo-benefício',
+    stock_quantity: 100,
+    category: 'electronics',
+    status: 'active'
   }
 ])

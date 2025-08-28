@@ -1,0 +1,10 @@
+mark_abandoned_carts:
+  cron: '0 0-23 * * *' 
+  class: 'Carts::MarkAsAbandonedJob'
+  description: 'Mark carts as abandoned after 3 hours of inactivity'
+  active_job: true
+remove_abandoned_carts:
+  cron: '0 13 1-31 * * 
+  class: 'Carts::RemoveAbandonedJob'
+  description: 'Remove abandoned carts older than 7 days'
+  active_job: true
